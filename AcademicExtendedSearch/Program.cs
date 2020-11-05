@@ -6,10 +6,9 @@ namespace AcademicExtendedSearch
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            List<Datas> datas = new List<Datas>();
-            List list = new List(datas);
+            List<Datas> datas = new List<Datas>(); 
             Search search = new Search(datas);
             search.Start();
         }
